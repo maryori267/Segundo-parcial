@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejemplo de Container</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container bg-success">
+        <h2>¿Qué son los contenedores?</h2>
+        <p> se trata de elementos que agrupan o encierran 
+            contenido para organizarlo, estructurarlo o darle 
+            estilo. <br><br>
+            Son bloques que se usan para: <br><br>
+
+            Agrupar texto, imágenes, formularios, etc.
+
+            Aplicar estilos como márgenes, fondo, bordes, etc.
+
+            Controlar el diseño (por ejemplo: en columnas o filas).
+
+        </p>
+    </div>
+
+
+    <div class="container-fluid bg-warning text-white p-3 mt-5">
+        <h2>¿Cuándo se debe usar un contenedor (container)?</h2>
+        <p>Debes usar un contenedor cuando quieres: <br>
+
+1. Centrar el contenido en la página
+Los contenedores en Bootstrap colocan el contenido con márgenes automáticos a los lados para que se vea bien en diferentes tamaños de pantalla. <br>
+
+2. Limitar el ancho del contenido
+Un container tiene un ancho máximo definido para que el contenido no se vea muy estirado en pantallas grandes.
+Un container-fluid ocupa todo el ancho de la pantalla. <br>
+
+ 3. Organizar filas y columnas
+Para que las clases row y col funcionen correctamente, deben estar dentro de un container. <br>
+
+4. Aplicar diseño responsivo fácilmente
+Usar container ayuda a que el sitio se adapte mejor en celular, tablet y computadora. <br></p>
+    </div>
+
+   
+    <div class="container mt-5">
+        <h2>Tipos de Container</h2>
+        <div class="row">
+            <div class="col-md-4 bg-success text-white p-3">Container normal</div>
+            <div class="col-md-4 bg-warning text-dark p-3">Container-fluid</div>
+            <div class="col-md-4 bg-danger text-white p-3">Container con columnas</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
